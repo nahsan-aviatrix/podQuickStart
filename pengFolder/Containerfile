@@ -1,0 +1,4 @@
+FROM scratch
+COPY peng /peng
+EXPOSE 8082
+CMD ["/peng"]

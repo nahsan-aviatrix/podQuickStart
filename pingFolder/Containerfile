@@ -1,0 +1,4 @@
+FROM scratch
+COPY ping /ping
+EXPOSE 8080
+CMD ["/ping"]

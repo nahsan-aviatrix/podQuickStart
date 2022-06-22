@@ -1,0 +1,4 @@
+FROM scratch
+COPY pong /pong
+EXPOSE 8081
+CMD ["/pong"]
